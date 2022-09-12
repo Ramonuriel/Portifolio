@@ -1,0 +1,62 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+header {
+  background-color: #0f2958;
+  box-shadow: 0px 10px 0px #000000;
+}
+
+nav {
+  background-color: #0f2958;
+  height: 80px;
+  text-align: right;
+}
+.logo {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  left: 20px;
+  top: 10px;
+}
+
+a {
+  display: inline-flex;
+  align-items: center;
+  color: white;
+  font-size: 20px;
+  font-family: 'Fira Code', Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  text-decoration: none;
+  margin: 20px;
+}
+
+a::before {
+  content: '';
+  width: 10px;
+  height: 10px;
+  background-color: #532574;
+  margin-right: 10px;
+}
+
+#button {
+  display: inline-block;
+  background: #532574;
+  height: 50px;
+  width: 150px;
+  line-height: 50px;
+  padding-inline: 20px;
+  margin-right: 30px;
+  box-shadow: 5px 5px 0px #000;
+  text-align: center;
+  transition: transform 350ms cubic-bezier(0.6, -0.32, 0, 4.17);
+}
+
+#button:hover {
+  transform: scale(1.08);
+}
+
+/*Final do header*/
+
+/* Inicio do main*/
